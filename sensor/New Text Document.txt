@@ -1,0 +1,11 @@
+**problems faced with tcrt5000
+
+1 changes with ambient light (have to check further)
+2 higher voltage level is not fixed
+
+
+
+
+
+**good side 
+1 all sensors give on an average same value
