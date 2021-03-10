@@ -1,0 +1,13 @@
+using #define
+
+digitalWriteFast2 = 500
+digitalWriteFast = 1132
+digitalWrite = 12836
+
+using int
+
+digitalWriteFast2 = 13708
+digitalWriteFast = 14088
+digitalWrite = 12952
+
+so to take the advantage of digitalWriteFast2 #define must be used.
