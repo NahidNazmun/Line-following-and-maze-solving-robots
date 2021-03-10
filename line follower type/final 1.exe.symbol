@@ -1,0 +1,70 @@
+< THE SYMBOL TABLE >  final 1.exe  --  emu8086 assembler version: 4.08 
+===================================================================================================
+Name                     	Offset    	Size      	Type      	Segment   
+===================================================================================================
+_DATA                    	00000     	-5        	SEGMENT   	(ITSELF)  
+USRNM                    	00000     	1         	VAR       	_data     
+PASS                     	0000C     	1         	VAR       	_data     
+USERNAME1                	00018     	1         	VAR       	_data     
+USERNAME2                	0001E     	1         	VAR       	_data     
+USERNAME3                	00024     	1         	VAR       	_data     
+PASSWORD1                	0002C     	1         	VAR       	_data     
+PASSWORD2                	00031     	1         	VAR       	_data     
+PASSWORD3                	00036     	1         	VAR       	_data     
+ENTER1                   	0003B     	1         	VAR       	_data     
+ENTER2                   	0003C     	1         	VAR       	_data     
+ENTER3                   	0003D     	1         	VAR       	_data     
+ENTRYTIME1               	0003E     	1         	VAR       	_data     
+ENTRYTIME2               	0005C     	1         	VAR       	_data     
+ENTRYTIME3               	0007A     	1         	VAR       	_data     
+EXITTIME1                	00098     	1         	VAR       	_data     
+EXITTIME2                	000B6     	1         	VAR       	_data     
+EXITTIME3                	000D4     	1         	VAR       	_data     
+MSG1                     	000F2     	1         	VAR       	_data     
+MSG2                     	00109     	1         	VAR       	_data     
+MSG3                     	0011D     	1         	VAR       	_data     
+MSG4                     	0013F     	1         	VAR       	_data     
+MSG5                     	0014D     	1         	VAR       	_data     
+MSG6                     	0015A     	1         	VAR       	_data     
+NEWLINE                  	00174     	1         	VAR       	_data     
+ARREST                   	00177     	1         	VAR       	_data     
+USERNAME                 	001AD     	1         	VAR       	_data     
+PASSWORD                 	001B7     	1         	VAR       	_data     
+USERID                   	001C1     	1         	VAR       	_data     
+ENTER                    	001C2     	1         	VAR       	_data     
+MATCHFLAG                	001C3     	1         	VAR       	_data     
+DAY                      	001C4     	1         	VAR       	_data     
+MONTH                    	001C5     	1         	VAR       	_data     
+YEAR                     	001C6     	2         	VAR       	_data     
+HOUR                     	001C8     	1         	VAR       	_data     
+MINUTE                   	001C9     	1         	VAR       	_data     
+SECOND                   	001CA     	1         	VAR       	_data     
+_CODE                    	0001D     	-5        	SEGMENT   	(ITSELF)  
+START                    	00000     	-1        	LABEL     	_code     
+ID1                      	00079     	-1        	LABEL     	_code     
+ID2                      	00080     	-1        	LABEL     	_code     
+ID3                      	00087     	-1        	LABEL     	_code     
+END_USRMATCH             	0008E     	-1        	LABEL     	_code     
+PS1                      	000BC     	-1        	LABEL     	_code     
+EXIT1                    	0017E     	-1        	LABEL     	_code     
+PS2                      	00270     	-1        	LABEL     	_code     
+EXIT2                    	00332     	-1        	LABEL     	_code     
+PS3                      	00424     	-1        	LABEL     	_code     
+EXIT3                    	004E6     	-1        	LABEL     	_code     
+WR_ENTER                 	005D8     	-1        	LABEL     	_code     
+WRONG_PASS               	005E6     	-1        	LABEL     	_code     
+HACK                     	005F4     	-1        	LABEL     	_code     
+RDPSS                    	00602     	-1        	NEAR      	_code     
+CHAR                     	00606     	-1        	LABEL     	_code     
+RDSTR                    	0061D     	-1        	NEAR      	_code     
+RDCHAR                   	00621     	-1        	LABEL     	_code     
+MTCH                     	00634     	-1        	NEAR      	_code     
+CHECK                    	00635     	-1        	LABEL     	_code     
+WRONG                    	00641     	-1        	LABEL     	_code     
+HEX2ASC                  	00643     	-1        	NEAR      	_code     
+RPT1                     	0064D     	-1        	LABEL     	_code     
+RPT2                     	00660     	-1        	LABEL     	_code     
+===================================================================================================
+[ 09-03-16  --  02.50.04 AM ] 
+< END >
+ 
